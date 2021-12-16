@@ -1,0 +1,171 @@
+.maincontainer{
+  display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 3fr 1fr 5fr;
+    grid-gap: 1vh;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #F0EBD8;
+    font-family: sans-serif;
+
+}
+
+.containertop{
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 1fr;
+  grid-gap:1vh;
+  
+  
+}
+.gridOptions{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.topMenulist{
+  justify-content: space-around;
+
+  align-items: center;
+
+  width: 60vw;
+  
+}
+.topMenuListItem{
+
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    color: #58a4b0;
+    width: 50%;
+    border-style: inset;
+
+}
+.topMenuListItem:hover  {
+  background-color: #eeeeee;;
+}
+.topMenuListItem:active  {
+  background-color: #a5a5a5;
+  color: #00dcff;
+  
+}
+.gridLogo{
+
+  grid-column-start: 1;
+  grid-column-end: 2;
+ 
+}
+.mainContentPageCards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2;
+  grid-gap:1vh;
+  border-top: 25px;
+}
+.mainCardsHeader{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  justify-content: center;
+  display: flex;
+}
+
+
+
+
+
+
+.MainConentPage{
+  /* border: 1px solid black; */
+  /* grid-column-start: 2;
+  grid-column-end: -1; */
+
+    
+}
+.IIclublogo{
+content: url("./logoii.png");
+   
+    width: 150px;
+padding:15px;
+}
+.image3{
+  content: url("./images/carouselImages/3.png");
+}
+.image2{
+  content: url("./images/carouselImages/2.png");
+}
+.image1{
+  content: url("./images/carouselImages/1.png");
+}
+
+.subsidemenyList{
+  
+  background-color: #58A4B0;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  padding: 10%;
+  margin: 10%;
+  font-size: x-large;
+  min-width: 20vh;
+  
+  border-style: groove;
+
+}
+.subsidemenyList:hover{
+  background-color: #00ddff;
+}
+.subsidemenyList:active{
+  background-color: #ffffff;
+  color:#58A4B0;
+}
+.sidemenulist{
+   list-style-type: none;    
+}
+
+.footerMenu{
+  /* border: 1px solid black; */
+  grid-column-start: 1;
+  grid-column-end: -1;
+
+}
+.sidemenu{
+  /* border: 1px solid black; */
+
+}
+
+.topheading{
+  
+  /* width: 100%; */
+  grid-column-start: 1;
+  background-color: #58A4B0;
+  grid-column-end: -1;
+  
+}
+
+.columClass{
+  border:2px solid black;
+grid-gap:10px
+ 
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.img1{
+  border-style: solid;
+  border-radius: 10px;
+  height: 296px;
+  width: 443px;
+  text-align: center;
+  /* background-image: url('E:\pz_projects\Workspace\sai_Learning\myapp\src\images\carouselImages\2.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  border-style: inset;
+  
+
+}

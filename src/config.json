@@ -1,0 +1,14 @@
+{
+  "SideMenuItem":[
+  "Trainings","Products", "Worskhop"
+],
+"topMenuItems":[
+  "Home","About Us","contact Us" 
+],
+"mainContentPageProjectCards":[
+  "Robots 9", "Humanoid","Desert Pick Info", "SmartPepperSpray","Mask Detection Robot","Automatic Sanitizer Dispenser"
+],
+"mainContentPageWorkshopCards":[
+]
+
+}
